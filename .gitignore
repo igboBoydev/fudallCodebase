@@ -4,3 +4,4 @@ access.log
 ./access.log
 /node_modules
 package-lock.json
+yarn.lock
