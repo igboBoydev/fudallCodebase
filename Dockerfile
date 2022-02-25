@@ -30,6 +30,6 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-EXPOSE 2022
+EXPOSE 3000
 
 CMD ["yarn", "start"]

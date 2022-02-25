@@ -8,7 +8,7 @@ services:
     volumes:
       - "./:/var/www/html"
     ports:
-      - "19200:2022"
+      - "${FORWARDED_APP_PORT:-19200}:3000"
   mysql:
     image: 'mysql/mysql-server:8.0'
     ports:
